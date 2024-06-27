@@ -9,7 +9,7 @@ Switch to the `script.js` file and create the variable `penColour` and sets its 
 <div class="c-project-code">
 --- code ---
 ---
-language: js
+language: javascript
 line_numbers: true
 line_number_start: 1
 ---
@@ -28,7 +28,7 @@ Create a new function called `setPenColour` with an input of `pen` and change th
 <div class="c-project-code">
 --- code ---
 ---
-language: js
+language: javascript
 line_numbers: true
 line_number_start: 1
 line_highlights: 3-6, 10
