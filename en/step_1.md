@@ -37,10 +37,10 @@ line_numbers: true
 line_number_start: 1
 ---
 #art {
-	display: table;
-	border-spacing: 1px;
-	background-color: black;
-	border: 5px solid black;
+  display: table;
+  border-spacing: 1px;
+  background-color: black;
+  border: 5px solid black;
 }
 
 --- /code ---
