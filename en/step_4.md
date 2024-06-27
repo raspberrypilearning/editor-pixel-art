@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Make a bigger grid</h2>
+<h2 class="c-project-heading--task">Challenge</h2>
 
 --- task ---
 ➡️ Make a bigger grid.

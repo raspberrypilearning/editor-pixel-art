@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Add more colours to the palette</h2>
+<h2 class="c-project-heading--task">Challenge</h2>
 
 --- task ---
 ➡️ Add more colours to the palette.

@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Add more rows</h2>
 
 --- task ---
-➡️ Add more rows.
+➡️ Create a 3×3 pixel grid. 
 --- /task --- 
 
 In your index.html file, add another two sections of pixels to create a 3×3 pixel grid. 

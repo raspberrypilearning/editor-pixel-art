@@ -1,10 +1,8 @@
-<h2 class="c-project-heading--task">Add a colour palette</h2>
+<h2 class="c-project-heading--task">Create a colour palette</h2>
 
 --- task ---
-➡️ Add a colour palette.
+➡️ Add a new table
 --- /task --- 
-
-Let users choose colours with a click.
 
 Switch to the `style.css` file and create a pen style.
 
