@@ -1,7 +1,42 @@
-## What next?
+<h2 class="c-project-heading--task">Add more rows</h2>
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+--- task ---
+➡️ Add more rows.
+--- /task --- 
 
-![ProjectName project](images/projectname-project.png)
+In your index.html file, add another two sections of pixels to create a 3×3 pixel grid. 
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+You can use copy and paste to save time.
+
+<div class="c-project-code">
+--- code ---
+---
+language: html
+line_numbers: true
+line_number_start: 7
+line_highlights: 14-23
+---
+<body>
+  <div id="art">
+    <div class = "row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </div>
+    <div class = "row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </div>
+    <div class = "row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </div>
+  </div>  
+</body>
+
+--- /code ---
+</div>
+
+**Test:** Run your code to see the 3x3 grid.

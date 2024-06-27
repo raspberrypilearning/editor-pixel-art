@@ -1,59 +1,49 @@
-## Introduction
+<h2 class="c-project-heading--task">Create the grid</h2>
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+--- task ---
+➡️ Create a grid.
+--- /task --- 
 
-### What you will make
+Create a table with black borders.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+A `<div>` is an invisible box you can style. 
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+Into the `<body>` of your `index.html` file, add a `<div>` with the ID `art`, so you can style it. 
+
+<div class="c-project-code">
+--- code ---
+---
+language: html
+line_numbers: true
+line_number_start: 7
+line_highlights: 8-10
+---
+<body>
+  <div id="art">
+
+  </div>  
+</body>
+
+--- /code ---
 </div>
---- /no-print ---
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+Switch to the `style.css` file and add the styling for the art `<div>`.
 
---- collapse ---
+<div class="c-project-code">
+--- code ---
 ---
-title: What you will need
+language: css
+line_numbers: true
+line_number_start: 1
 ---
-### Hardware
+#art {
+	display: table;
+	border-spacing: 1px;
+	background-color: black;
+	border: 5px solid black;
+}
 
-+ A computer or tablet capable of running Scratch 3
+--- /code ---
+</div>
 
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+**Test:** Run your code to see the table.

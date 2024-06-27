@@ -1,11 +1,17 @@
-title: default-project-template
+title: Pixel art
 hero_image: images/banner.png
-description: default-project-template description
+description: Make some colourful pixel art!
 version: 4
 listed: false
 copyedit: false
-last_tested: "2022-05-19"
+last_tested: "2024-06-27"
 steps:
-  - title: Introduction
-  - title: Step title
-  - title: What next?
+  - title: Create a grid
+  - title: Add a row of pixels
+  - title: Add more rows
+  - title: Make a bigger grid
+  - title: Colour the pixels
+  - title: Make all pixels clickable
+  - title: Add a colour palette
+  - title: Make the palette interactive
+  - title: Add more colours to the palette
