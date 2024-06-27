@@ -11,7 +11,7 @@ A pixel is passed to the function, so the function can change that pixel’s col
 <div class="c-project-code">
 --- code ---
 ---
-language: js
+language: javascript
 line_numbers: true
 line_number_start: 1
 ---
