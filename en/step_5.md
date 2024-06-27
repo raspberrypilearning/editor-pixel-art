@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Colour the pixels</h2>
 
 --- task ---
-➡️ Colour the pixels.
+➡️ Colour a pixel when you click it.
 --- /task --- 
-
-Use JavaScript code to colour a pixel when you click it.
 
 Switch to the `script.js` file and create the function `setPixelColour`. 
 

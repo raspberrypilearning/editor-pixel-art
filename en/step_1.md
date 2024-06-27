@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Create the grid</h2>
 
 --- task ---
-➡️ Create a grid.
+➡️ Create a table with black borders.
 --- /task --- 
-
-Create a table with black borders.
 
 A `<div>` is an invisible box you can style. 
 

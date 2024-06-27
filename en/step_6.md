@@ -1,10 +1,8 @@
-<h2 class="c-project-heading--task">Make all pixels clickable</h2>
+<h2 class="c-project-heading--task">Challenge</h2>
 
 --- task ---
 ➡️ Make all pixels clickable.
 --- /task --- 
-
-Can you make all the pixels clickable?
 
 To save time, you can copy and paste the code you need.
 

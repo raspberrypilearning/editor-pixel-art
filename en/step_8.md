@@ -1,7 +1,7 @@
 <h2 class="c-project-heading--task">Make the palette interactive</h2>
 
 --- task ---
-➡️ Make the palette interactive.
+➡️ Let users choose colours with a click.
 --- /task --- 
 
 Switch to the `script.js` file and create the variable `penColour` and sets its value to `'black'` 

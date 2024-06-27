@@ -2,10 +2,8 @@
 <h2 class="c-project-heading--task">Add a row of pixels</h2>
 
 --- task ---
-➡️ Add a row of pixels.
+➡️ Add a row of three pixels inside the art div.
 --- /task --- 
-
-Add a row of three pixels inside the art div.
 
 <div class="c-project-code">
 --- code ---
