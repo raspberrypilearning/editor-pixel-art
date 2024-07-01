@@ -6,11 +6,12 @@
 
 A `<div>` is an invisible box you can style. 
 
-Into the `<body>` of your `index.html` file, add a `<div>` with the ID `art`, so you can style it. 
+Add a `<div>` with the ID `art`, so you can style it. 
 
 <div class="c-project-code">
 --- code ---
 ---
+filename: index.html
 language: html
 line_numbers: true
 line_number_start: 7
@@ -30,6 +31,7 @@ Switch to the `style.css` file and add the styling for the art `<div>`.
 <div class="c-project-code">
 --- code ---
 ---
+filename: style.css
 language: css
 line_numbers: true
 line_number_start: 1
@@ -44,4 +46,4 @@ line_number_start: 1
 --- /code ---
 </div>
 
-**Test:** Run your code to see the table.
+**Test:** Run your code to see a black dot appear.

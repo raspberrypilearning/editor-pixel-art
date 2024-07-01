@@ -4,7 +4,7 @@
 ➡️ Add more colours to the palette.
 --- /task --- 
 
-Can you add more colours to the palette?
+Can you add more colours to the **palette**?
 
 Add them to your code. Then create some colourful pixel images!
 
@@ -15,7 +15,7 @@ Here is an example:
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
-The bright green colour is called `chartreuse`. Here is a [list of colour names](https://www.w3schools.com/colors/colors_names.asp) from which you can pick your favourites.
+The bright green colour is called `chartreuse`. Here is a [list of colour names](https://www.w3schools.com/colors/colors_names.asp){:target="_blank} from which you can pick your favourites.
 </div>
 
 **Test:** Run your code and create a piece of pixel art!
