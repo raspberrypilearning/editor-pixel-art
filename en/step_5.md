@@ -4,30 +4,37 @@
 ➡️ Colour a pixel when you click it.
 --- /task --- 
 
-Switch to the `script.js` file and create the function `setPixelColour`. 
-
-A pixel is passed to the function, so the function can change that pixel’s colour.
+Switch to the `script.js` file and change the backgroundColor from `'black'` to a colour of your choice. 
 
 <div class="c-project-code">
 --- code ---
 ---
+filename: script.js
 language: javascript
 line_numbers: true
 line_number_start: 1
+line_highlights: 2
+
 ---
-function setPixelColour(pixel)
-{
-  pixel.style.backgroundColor = 'black';
+function setPixelColour(pixel) {
+  pixel.style.backgroundColor = "black";
 }
 
 --- /code ---
 </div>
 
-Switch to the `index.html` file and add an `onclick` event.
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+A pixel is passed to the function, so the function can change that pixel’s colour.
+</div>
+
+Switch to the `index.html` file and add an `onclick` event to the first `pixel` div.
 
 <div class="c-project-code">
 --- code ---
 ---
+filename: index.html
 language: html
 line_numbers: true
 line_number_start: 7

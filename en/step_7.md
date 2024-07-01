@@ -9,6 +9,7 @@ Switch to the `style.css` file and create a pen style.
 <div class="c-project-code">
 --- code ---
 ---
+filename: style.css
 language: css
 line_numbers: true
 line_number_start: 12
@@ -36,6 +37,7 @@ Switch to the `index.html` file and add a black and white palette.
 <div class="c-project-code">
 --- code ---
 ---
+filename: index.html
 language: html
 line_numbers: true
 line_number_start: 7
@@ -43,8 +45,8 @@ line_highlights: 8-11
 ---
 <body>
   <div id="palette">
-    <div class="pen" style="background-color:white;" onclick="setPenColour('white')"></div>
-    <div class="pen" style="background-color:black;" onclick="setPenColour('black')"></div>
+    <div class="pen" style="background-color:white;"></div>
+    <div class="pen" style="background-color:black;"></div>
   </div>
   <div id="art">
   <div class = "row">

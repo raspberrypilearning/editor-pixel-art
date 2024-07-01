@@ -8,6 +8,7 @@
 <div class="c-project-code">
 --- code ---
 ---
+filename: index.html
 language: html
 line_numbers: true
 line_number_start: 7
@@ -31,6 +32,7 @@ Switch to the `style.css` file and add the styles for rows and pixels:
 <div class="c-project-code">
 --- code ---
 ---
+filename: style.css
 language: css
 line_numbers: true
 line_number_start: 8
@@ -56,3 +58,5 @@ You have used a class instead of an ID to style the row and pixel divs. This is 
 </div>
 
 **Test:** Run your code to see the row of pixels.
+
+![A row of three squares (pixels) with a thick black border and thin inner borders](images/row-of-three.png)
