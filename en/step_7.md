@@ -13,13 +13,14 @@ filename: style.css
 language: css
 line_numbers: true
 line_number_start: 12
-line_highlights: 19-24
+line_highlights: 20-25
 ---
 .pixel {
   display: table-cell;
   background-color: white;
   width: 40px;
   height: 40px;
+  border: 1px solid black;
 }
 
 .pen {
