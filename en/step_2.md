@@ -46,6 +46,7 @@ line_number_start: 8
   background-color: white;
   width: 40px;
   height: 40px;
+  border: 1px solid black;
 }
 
 --- /code ---
