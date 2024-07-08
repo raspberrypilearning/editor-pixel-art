@@ -5,6 +5,8 @@
 ➡️ Add a row of three pixels inside the art div.
 --- /task --- 
 
+Switch to the `index.html` file and add this code.
+
 <div class="c-project-code">
 --- code ---
 ---
