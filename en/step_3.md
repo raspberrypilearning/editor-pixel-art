@@ -4,7 +4,7 @@
 ➡️ Create a 3×3 pixel grid. 
 --- /task --- 
 
-In your index.html file, add another two rows of pixels to create a 3×3 pixel grid. 
+In your `index.html` file, add another two rows of pixels to create a 3×3 pixel grid. 
 
 You can use copy and paste to save time.
 
