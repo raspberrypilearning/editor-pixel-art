@@ -7,6 +7,8 @@ copyedit: false
 last_tested: "2024-06-27"
 steps:
   - title: Create a grid
+    completion:
+      - engaged
   - title: Add a row of pixels
   - title: Add more rows
   - title: Make a bigger grid
@@ -14,4 +16,6 @@ steps:
   - title: Make all pixels clickable
   - title: Add a colour palette
   - title: Make the palette interactive
+    completion:
+      - engaged
   - title: Add more colours to the palette
