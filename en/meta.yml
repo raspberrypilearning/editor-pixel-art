@@ -17,5 +17,6 @@ steps:
   - title: Add a colour palette
   - title: Make the palette interactive
     completion:
-      - engaged
+      - internal
   - title: Add more colours to the palette
+  - title: What can you do now?
