@@ -15,7 +15,7 @@ filename: index.html
 language: html
 line_numbers: true
 line_number_start: 7
-line_highlights: 8-10
+line_highlights: 8-10 
 ---
 <body>
   <div id="art">
