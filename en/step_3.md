@@ -43,7 +43,7 @@ line_highlights: 4-5, 15-17
 #artboard {
   display: table;
   border-spacing: 1px;
-  background-color: yellow;
+  background-color: blue;
   border: 5px solid blue;
 }
 
@@ -56,7 +56,7 @@ line_highlights: 4-5, 15-17
   background-color: white;
   width: 60px;
   height: 60px;
-  border: 1px solid yellow;
+  border: 1px solid blue;
 }
 --- /code ---
 

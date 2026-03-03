@@ -19,8 +19,8 @@ In `index.html`, add a `palette` div above the `artboard`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 1
-line_highlights: 11-17
+line_number_start: 4
+line_highlights: 6-10
 ---
 </head>
 <body>

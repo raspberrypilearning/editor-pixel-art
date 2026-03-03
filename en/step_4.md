@@ -8,7 +8,15 @@ Make pixels change colour when you click them.
 
 --- task ---
 
-Open the `script.js`, add code that finds every `.pixel` and turns it black when clicked.
+Click the file icon and open `script.js`.
+
+![screenshot](images/js-file.png)
+
+--- /task ---
+
+--- task ---
+
+Add the code below that finds every `.pixel` and turns it black when clicked.
 
 --- /task ---
 
@@ -20,7 +28,7 @@ language: javascript
 filename: script.js
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-13
+line_highlights: 5-13
 ---
 function setPixelColour(pixel) {
   pixel.style.backgroundColor = "black";

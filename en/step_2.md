@@ -55,6 +55,6 @@ line_highlights: 6-22
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step2.png)
+![A 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step2.png)
 
 </div>

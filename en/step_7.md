@@ -13,13 +13,13 @@ Change the colours so the palette has colours that you like
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 1
-line_highlights: 11-17
+line_number_start: 4
+line_highlights: 6-10
 ---
-    <div id="palette">
-      <div class="pen" data-colour="lavender" style="background-color: black;"></div>
-      <div class="pen" data-colour="orchid" style="background-color: white;"></div>
-      <div class="pen" data-colour="indigo" style="background-color: red;"></div>
+  <div id="palette">
+      <div class="pen" data-colour="lavender" style="background-color: lavender;"></div>
+      <div class="pen" data-colour="orchid" style="background-color: orchid;"></div>
+      <div class="pen" data-colour="indigo" style="background-color: indigo;"></div>
     </div>
 --- /code ---
 

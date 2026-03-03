@@ -24,7 +24,7 @@ language: javascript
 filename: script.js
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-4, 6, 17-22
+line_highlights: 1, 4, 14-20
 ---
 let penColour = "black";
 
