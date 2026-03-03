@@ -4,7 +4,7 @@
 
 Change the colours so the palette has colours that you like
 
---- task ---
+--- /task ---
 
 <div class="c-project-code">
 
@@ -28,6 +28,7 @@ line_highlights: 11-17
 **Test:** Run your project — you should see your palette change.
 
 --- /task ---
+
 </div>
 
 <div class="c-project-output">
