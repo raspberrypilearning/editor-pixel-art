@@ -20,11 +20,11 @@ You can use copy and paste to save time.
 filename: index.html 
 language: html
 line_numbers: true
-line_number_start: 7
-line_highlights: 14-23
+line_number_start: 5
+line_highlights: 6-22
 ---
 <body>
-  <div id="art">
+  <div id="artboard">
     <div class = "row">
       <div class="pixel"></div>
       <div class="pixel"></div>
@@ -44,12 +44,17 @@ line_highlights: 14-23
 </body>
 
 --- /code ---
+
 --- task --- 
 
 **Test:** Run your code to see the 3x3 grid.
 
 --- /task --- 
+
 </div>
 
+<div class="c-project-output">
 
 ![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step2.png)
+
+</div>

@@ -1,48 +1,37 @@
-<h2 class="c-project-heading--task">Choose a palette colour</h2>
+<h2 class="c-project-heading--task">Pick the paint</h2>
 
 --- task ---
-Click a pen to choose a colour, then paint pixels using that colour.
---- /task ---
+
+Change the colours so the palette has colours that you like
 
 --- task ---
-Update `script.js` so clicking a pen sets `penColour`, and clicking a pixel uses `penColour`.
---- /task ---
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: javascript
-filename: script.js
+language: html
+filename: index.html
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-4, 6, 17-22
+line_highlights: 11-17
 ---
-let penColour = "black";
-
-function setPixelColour(pixel) {
-  pixel.style.backgroundColor = penColour;
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  const pixels = document.querySelectorAll(".pixel");
-
-  pixels.forEach((pixel) => {
-    pixel.addEventListener("click", () => setPixelColour(pixel));
-  });
-
-  const pens = document.querySelectorAll(".pen");
-
-  pens.forEach((pen) => {
-    pen.addEventListener("click", () => {
-      penColour = pen.dataset.colour;
-    });
-  });
-});
+    <div id="palette">
+      <div class="pen" data-colour="lavender" style="background-color: black;"></div>
+      <div class="pen" data-colour="orchid" style="background-color: white;"></div>
+      <div class="pen" data-colour="indigo" style="background-color: red;"></div>
+    </div>
 --- /code ---
 
+--- task ---
+
+**Test:** Run your project — you should see your palette change.
+
+--- /task ---
 </div>
 
---- task ---
-**Test:** Run your project — click a pen, then click pixels to paint with that colour.
---- /task ---
+<div class="c-project-output">
+
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step7.png)
+
+</div>

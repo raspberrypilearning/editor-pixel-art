@@ -2,31 +2,49 @@
 
 --- task ---
 
-Turn your grid into a neat set of square “pixels”.
+In `style.css`, add styles for `#art`, `.row`, and `.pixel`
 
 --- /task ---
+
 
 --- task ---
 
-In `style.css`, add styles for `#art`, `.row`, and `.pixel` so the pixels show as white squares inside a black border.
+Click on the file icon, and the `style.css` file.
+
+![screenshot](images/css-file.png)
 
 --- /task ---
 
-<div class="c-project-code">
 
+--- task ---
+
+The pixels show as white squares inside a black border. Experiment with colours, and change the `width` and `height` to get the artboard looking how you want it.
+
+--- /task ---
+
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+You can find more CSS colour names [here](http://jumpto.cc/colours){:target="_blank"}.
+
+</div>
+
+<div class="c-project-code">
 --- code ---
 ---
 language: css
 filename: style.css
 line_numbers: true
 line_number_start: 1
-line_highlights: 1-20
+line_highlights: 4-5, 15-17
 ---
-#art {
+#artboard {
   display: table;
   border-spacing: 1px;
-  background-color: black;
-  border: 5px solid black;
+  background-color: yellow;
+  border: 5px solid blue;
 }
 
 .row {
@@ -36,16 +54,22 @@ line_highlights: 1-20
 .pixel {
   display: table-cell;
   background-color: white;
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  border: 1px solid yellow;
 }
 --- /code ---
 
-</div>
-
 --- task ---
 
-**Test:** Run your project  — you should see a **3×3** grid of pixel squares.
+**Test:** Run your project  — you should see your **3×3** grid change with your new size and colours.
 
 --- /task ---
+
+</div>
+
+<div class="c-project-output">
+
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step3.png)
+
+</div>
