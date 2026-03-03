@@ -1,66 +1,48 @@
-<h2 class="c-project-heading--task">Create a colour palette</h2>
+<h2 class="c-project-heading--task">Choose a palette colour</h2>
 
 --- task ---
-➡️ Add a new table
---- /task --- 
+Click a pen to choose a colour, then paint pixels using that colour.
+--- /task ---
 
-Switch to the `style.css` file and create a pen style.
-
-<div class="c-project-code">
---- code ---
----
-filename: style.css
-language: css
-line_numbers: true
-line_number_start: 12
-line_highlights: 20-25
----
-.pixel {
-  display: table-cell;
-  background-color: white;
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
-}
-
-.pen {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  border: 2px solid black;
-}
-
---- /code ---
-</div>
-
-Switch to the `index.html` file and add a black and white palette.
+--- task ---
+Update `script.js` so clicking a pen sets `penColour`, and clicking a pixel uses `penColour`.
+--- /task ---
 
 <div class="c-project-code">
+
 --- code ---
 ---
-filename: index.html
-language: html
+language: javascript
+filename: script.js
 line_numbers: true
-line_number_start: 7
-line_highlights: 8-11
+line_number_start: 1
+line_highlights: 1-4, 6, 17-22
 ---
-<body>
-  <div id="palette">
-    <div class="pen" style="background-color:white;"></div>
-    <div class="pen" style="background-color:black;"></div>
-  </div>
-  <div id="art">
-  <div class = "row">
+let penColour = "black";
 
+function setPixelColour(pixel) {
+  pixel.style.backgroundColor = penColour;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const pixels = document.querySelectorAll(".pixel");
+
+  pixels.forEach((pixel) => {
+    pixel.addEventListener("click", () => setPixelColour(pixel));
+  });
+
+  const pens = document.querySelectorAll(".pen");
+
+  pens.forEach((pen) => {
+    pen.addEventListener("click", () => {
+      penColour = pen.dataset.colour;
+    });
+  });
+});
 --- /code ---
-</div>
-
-**Test:** Run your code. You should see your palette at the top.
-
-<div class="c-project-callout c-project-callout--debug">
-
-### Debugging
-
-Notice that the styles for the `pen` class end with a semicolon (`;`).
 
 </div>
+
+--- task ---
+**Test:** Run your project — click a pen, then click pixels to paint with that colour.
+--- /task ---

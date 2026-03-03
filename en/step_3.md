@@ -1,43 +1,51 @@
-<h2 class="c-project-heading--task">Add more rows</h2>
+<h2 class="c-project-heading--task">Style the grid area</h2>
 
 --- task ---
-➡️ Create a 3×3 pixel grid. 
---- /task --- 
 
-In your `index.html` file, add another two rows of pixels to create a 3×3 pixel grid. 
+Turn your grid into a neat set of square “pixels”.
 
-You can use copy and paste to save time.
+--- /task ---
+
+--- task ---
+
+In `style.css`, add styles for `#art`, `.row`, and `.pixel` so the pixels show as white squares inside a black border.
+
+--- /task ---
 
 <div class="c-project-code">
+
 --- code ---
 ---
-filename: index.html
-language: html
+language: css
+filename: style.css
 line_numbers: true
-line_number_start: 7
-line_highlights: 14-23
+line_number_start: 1
+line_highlights: 1-20
 ---
-<body>
-  <div id="art">
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-  </div>  
-</body>
+#art {
+  display: table;
+  border-spacing: 1px;
+  background-color: black;
+  border: 5px solid black;
+}
 
+.row {
+  display: table-row;
+}
+
+.pixel {
+  display: table-cell;
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
 --- /code ---
+
 </div>
 
-**Test:** Run your code to see the 3x3 grid.
+--- task ---
+
+**Test:** Run your project  — you should see a **3×3** grid of pixel squares.
+
+--- /task ---

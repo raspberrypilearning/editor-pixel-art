@@ -1,13 +1,47 @@
-<h2 class="c-project-heading--task">Challenge</h2>
+<h2 class="c-project-heading--task">Add a palette</h2>
 
 --- task ---
-➡️ Make all pixels clickable.
---- /task --- 
+Add colour pens above your grid so you can choose colours later.
+--- /task ---
 
-To save time, you can copy and paste the code you need.
+--- task ---
+In `index.html`, add a `palette` div above `#art` and create a few pens using `data-colour`.
+--- /task ---
 
-Here is an example:
+<div class="c-project-code">
 
-![An 8x8 grid of pixels showing a smiley face, drawn by colouring black pixels for the eyes and mouth](images/pixel-art-black-example.png)
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 1
+line_highlights: 11-17
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
 
-**Test:** Run your code and create a piece of pixel art!
+  <body>
+    <h1>Pixel Art</h1>
+
+    <div id="palette">
+      <div class="pen" data-colour="black" style="background-color: black;"></div>
+      <div class="pen" data-colour="white" style="background-color: white;"></div>
+      <div class="pen" data-colour="red" style="background-color: red;"></div>
+    </div>
+
+    <div id="art">
+    
+  </body>
+</html>
+--- /code ---
+
+</div>
+
+--- task ---
+**Test:** Run your project — you should see **three pen squares** above the grid. 
+--- /task ---

@@ -1,23 +1,40 @@
-
-<h2 class="c-project-heading--task">Add a row of pixels</h2>
+<h2 class="c-project-heading--task">Make the grid</h2>
 
 --- task ---
-➡️ Add a row of three pixels inside the art div.
+
+Start with a 3×3 pixel grid so you have something to paint on.
+
 --- /task --- 
 
-Switch to the `index.html` file and add this code.
+--- task ---
+
+In your `index.html` file, add three rows of pixels to create a pixel grid. 
+
+You can use copy and paste to save time.
+
+--- /task --- 
 
 <div class="c-project-code">
 --- code ---
 ---
-filename: index.html
+filename: index.html 
 language: html
 line_numbers: true
 line_number_start: 7
-line_highlights: 9-13
+line_highlights: 14-23
 ---
 <body>
   <div id="art">
+    <div class = "row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </div>
+    <div class = "row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </div>
     <div class = "row">
       <div class="pixel"></div>
       <div class="pixel"></div>
@@ -27,39 +44,12 @@ line_highlights: 9-13
 </body>
 
 --- /code ---
+--- task --- 
+
+**Test:** Run your code to see the 3x3 grid.
+
+--- /task --- 
 </div>
 
-Switch to the `style.css` file and add the styles for rows and pixels:
 
-<div class="c-project-code">
---- code ---
----
-filename: style.css
-language: css
-line_numbers: true
-line_number_start: 8
----
-.row {
-  display: table-row;
-}
-
-.pixel {
-  display: table-cell;
-  background-color: white;
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
-}
-
---- /code ---
-</div>
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-You have used a class instead of an ID to style the row and pixel divs. This is because there will be lots of them.
-</div>
-
-**Test:** Run your code to see the row of pixels.
-
-![A row of three squares (pixels) with a thick black border and thin inner borders](images/row-of-three.png)
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step2.png)
