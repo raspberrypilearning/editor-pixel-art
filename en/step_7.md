@@ -13,8 +13,8 @@ Change the colours so the palette has colours that you like
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 4
-line_highlights: 6-10
+line_number_start: 6
+line_highlights: 7-9
 ---
   <div id="palette">
       <div class="pen" data-colour="lavender" style="background-color: lavender;"></div>
