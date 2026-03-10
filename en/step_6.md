@@ -33,13 +33,13 @@ line_highlights: 6-10
   <div id="artboard">
 --- /code ---
 
+</div>
+
 --- task ---
 
 **Test:** Run your project — you should see **three squares** above the grid, this is your pallette. 
 
 --- /task ---
-
-</div>
 
 <div class="c-project-output">
 

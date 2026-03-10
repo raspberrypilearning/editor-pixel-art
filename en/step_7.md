@@ -23,13 +23,13 @@ line_highlights: 7-9
     </div>
 --- /code ---
 
+</div>
+
 --- task ---
 
 **Test:** Run your project — you should see your palette change.
 
 --- /task ---
-
-</div>
 
 <div class="c-project-output">
 

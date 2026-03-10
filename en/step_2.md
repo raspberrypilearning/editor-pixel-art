@@ -45,13 +45,13 @@ line_highlights: 6-22
 
 --- /code ---
 
+</div>
+
 --- task --- 
 
 **Test:** Run your code to see the 3x3 grid.
 
 --- /task --- 
-
-</div>
 
 <div class="c-project-output">
 

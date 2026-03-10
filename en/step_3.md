@@ -60,13 +60,13 @@ line_highlights: 4-5, 15-17
 }
 --- /code ---
 
+</div>
+
 --- task ---
 
 **Test:** Run your project  — you should see your **3×3** grid change with your new size and colours.
 
 --- /task ---
-
-</div>
 
 <div class="c-project-output">
 

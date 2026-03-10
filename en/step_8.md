@@ -49,13 +49,13 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 --- /code ---
 
+</div>
+
 --- task ---
 
 **Test:** Run your project — click a pen, then click pixels to paint with that colour.
 
 --- /task ---
-
-</div>
 
 <div class="c-project-output">
 

@@ -43,13 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 --- /code ---
 
+</div>
+
 --- task ---
 
 **Test:** Run your project — click a few pixels and they should turn **black**.
 
 --- /task ---
-
-</div>
 
 
 <div class="c-project-output">

@@ -35,13 +35,13 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 --- /code ---
 
+</div>
+
 --- task ---
 
 **Test:** Run your project — click pixels and they should now turn **red**. Experiment with adding other colours.
 
 --- /task ---
-
-</div>
 
 <div class="c-project-output">
 
