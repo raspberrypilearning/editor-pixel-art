@@ -37,7 +37,7 @@ line_highlights: 6-10
 
 --- task ---
 
-**Test:** Run your project — you should see **three squares** above the grid, this is your pallette. 
+**Test:** Run your project — you should see **three squares** above the grid. This is your pallette.
 
 --- /task ---
 
@@ -46,3 +46,13 @@ line_highlights: 6-10
 ![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step6.png)
 
 </div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+The pixels will only change to red for now.
+
+</div>
+
+

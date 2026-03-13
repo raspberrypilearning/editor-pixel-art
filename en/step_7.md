@@ -36,3 +36,11 @@ line_highlights: 7-9
 ![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step7.png)
 
 </div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+The pixels will only change to lavender for now.
+
+</div>
