@@ -1,50 +1,45 @@
-<h2 class="c-project-heading--task">Change the paint colour</h2>
+<h2 class="c-project-heading--task">Add a palette</h2>
 
---- task ---
+Add a colour palette above your grid so you can choose colours later.
 
-Change the colour you paint by editing one line of JavaScript.
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
---- /task ---
-
---- task ---
-
-In `script.js`, change the colour so pixels paint **red** instead of black.
-
---- /task ---
+In `index.html`, add a `palette` div above the `artboard`.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: javascript
-filename: script.js
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 1
-line_highlights: 2
+line_number_start: 4
+line_highlights: 6-10
 ---
-function setPixelColour(pixel) {
-  pixel.style.backgroundColor = "red";
-}
+</head>
+<body>
+    <div id="palette">
+      <div class="pen" data-colour="black" style="background-color: black;"></div>
+      <div class="pen" data-colour="white" style="background-color: white;"></div>
+      <div class="pen" data-colour="red" style="background-color: red;"></div>
+    </div>
 
-document.addEventListener("DOMContentLoaded", () => {
-  const pixels = document.querySelectorAll(".pixel");
-
-  pixels.forEach((pixel) => {
-    pixel.addEventListener("click", () => setPixelColour(pixel));
-  });
-});
+  <div id="artboard">
 --- /code ---
 
 </div>
 
---- task ---
+### Tip
+<div class="c-project-callout c-project-callout--tip">
+The pixels will only change to red for now.
+</div>
 
-**Test:** Run your project — click pixels and they should now turn **red**. Experiment with adding other colours.
+## Now run your code
 
---- /task ---
+You should see **three squares** above the grid. This is your pallette.
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step5.png)
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step6.png)
 
 </div>

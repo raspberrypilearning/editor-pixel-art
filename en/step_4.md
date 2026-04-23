@@ -1,24 +1,10 @@
-<h2 class="c-project-heading--task">Make the grid clickable</h2>
+<h2 class="c-project-heading--task">Change the paint colour</h2>
 
---- task ---
+Change the colour you paint by editing one line of JavaScript.
 
-Make pixels change colour when you click them.
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
---- /task ---
-
---- task ---
-
-Click the file icon and open `script.js`.
-
-![screenshot](images/js-file.png)
-
---- /task ---
-
---- task ---
-
-Add the code below that finds every `.pixel` and turns it black when clicked.
-
---- /task ---
+In `script.js`, change the colour so pixels paint **red** instead of black.
 
 <div class="c-project-code">
 
@@ -28,10 +14,10 @@ language: javascript
 filename: script.js
 line_numbers: true
 line_number_start: 1
-line_highlights: 5-13
+line_highlights: 2
 ---
 function setPixelColour(pixel) {
-  pixel.style.backgroundColor = "black";
+  pixel.style.backgroundColor = "red";
 }
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -45,15 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 </div>
 
---- task ---
+## Now run your code
 
-**Test:** Run your project — click a few pixels and they should turn **black**.
-
---- /task ---
-
+Click pixels and they should now turn **red**. Experiment with adding other colours.
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step4.png)
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step5.png)
 
 </div>

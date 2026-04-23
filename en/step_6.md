@@ -1,16 +1,8 @@
-<h2 class="c-project-heading--task">Add a palette</h2>
+<h2 class="c-project-heading--task">Pick the paint</h2>
 
---- task ---
+Change the colours so the palette has colours that you like
 
-Add a colour palette above your grid so you can choose colours later.
-
---- /task ---
-
---- task ---
-
-In `index.html`, add a `palette` div above the `artboard`.
-
---- /task ---
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
 <div class="c-project-code">
 
@@ -19,40 +11,29 @@ In `index.html`, add a `palette` div above the `artboard`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 4
-line_highlights: 6-10
+line_number_start: 6
+line_highlights: 7-9
 ---
-</head>
-<body>
-    <div id="palette">
-      <div class="pen" data-colour="black" style="background-color: black;"></div>
-      <div class="pen" data-colour="white" style="background-color: white;"></div>
-      <div class="pen" data-colour="red" style="background-color: red;"></div>
+  <div id="palette">
+      <div class="pen" data-colour="lavender" style="background-color: lavender;"></div>
+      <div class="pen" data-colour="orchid" style="background-color: orchid;"></div>
+      <div class="pen" data-colour="indigo" style="background-color: indigo;"></div>
     </div>
-
-  <div id="artboard">
 --- /code ---
 
 </div>
 
---- task ---
+### Tip
+<div class="c-project-callout c-project-callout--tip">
+The pixels will only change to lavender for now.
+</div>
 
-**Test:** Run your project — you should see **three squares** above the grid. This is your pallette.
+## Now run your code
 
---- /task ---
+You should see your palette change.
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step6.png)
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step7.png)
 
 </div>
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-The pixels will only change to red for now.
-
-</div>
-
-

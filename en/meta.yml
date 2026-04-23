@@ -5,18 +5,18 @@ version: 4
 listed: false
 copyedit: false
 last_tested: "2024-06-27"
+landing: true
 steps:
-  - title: Step 1
+  - title: Make the grid
+  - title: Style the grid area
     completion:
       - engaged
-  - title: Step 2
-  - title: Step 3
-  - title: Step 4
-  - title: Step 5
-  - title: Step 6
-  - title: Step 7
-  - title: Step 8 
+  - title: Make the grid clickable
+  - title: Change the paint colour
+  - title: Add a palette
+  - title: Pick the paint
+  - title: Choose a palette colour
     completion:
       - internal
-  - title: Step 9
- 
+  - title: Challenges
+    challenge: true

@@ -1,64 +1,47 @@
-<h2 class="c-project-heading--task">Choose a palette colour</h2>
+<h2 class="c-project-heading--task">Challenges</h2>
 
---- task ---
-Click a square in the palette to choose a colour, then paint pixels using that colour.
---- /task ---
+Upgrade your project with some challenges.
 
-<div class="c-project-callout c-project-callout--tip">
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
+
+**Make a bigger grid.**
+
+Increase the size of your grid to 8x8
 
 ### Tip
-
-The squares in the palette are called `pen`.
-
+<div class="c-project-callout c-project-callout--tip">
+You need to work out how to make one row of eight and then copy it to make seven more rows.
 </div>
 
---- task ---
-Update `script.js` so clicking a pen sets `penColour`, and clicking a pixel uses `penColour`.
---- /task ---
+## Step 2
+
+**Add more colours to the palette.**
+
+Add another colour with the line of code below. Then create some colourful pixel images!
+
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: javascript
-filename: script.js
-line_numbers: true
-line_number_start: 1
-line_highlights: 1, 4, 14-20
+language: html
+filename: index.html
+line_numbers: false
 ---
-let penColour = "black";
 
-function setPixelColour(pixel) {
-  pixel.style.backgroundColor = penColour;
-}
+ <div class="pen" style="background-color:black;" onclick="setPenColour('black')"></div>
 
-document.addEventListener("DOMContentLoaded", () => {
-  const pixels = document.querySelectorAll(".pixel");
-
-  pixels.forEach((pixel) => {
-    pixel.addEventListener("click", () => setPixelColour(pixel));
-  });
-
-  const pens = document.querySelectorAll(".pen");
-
-  pens.forEach((pen) => {
-    pen.addEventListener("click", () => {
-      penColour = pen.dataset.colour;
-    });
-  });
-});
 --- /code ---
-
 </div>
 
---- task ---
-
-**Test:** Run your project — click a pen, then click pixels to paint with that colour.
-
---- /task ---
+Here is an example of a design with a bigger grid
 
 <div class="c-project-output">
-
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step7.png)
-
+![An 8x8 grid of pixels showing an green space invader character on a black background](images/pixel-art-final.png)
 </div>
+
+## Now run your code
+
+Try your challenges and check the changes in your pixel art.

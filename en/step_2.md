@@ -1,60 +1,63 @@
-<h2 class="c-project-heading--task">Make the grid</h2>
+<h2 class="c-project-heading--task">Style the grid area</h2>
 
---- task ---
+In `style.css`, add styles for `#art`, `.row`, and `.pixel`
 
-Start with a 3×3 pixel grid so you have something to paint on.
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
---- /task --- 
+## Step 1
 
---- task ---
+Click on the file icon, and the `style.css` file.
 
-In your `index.html` file, add three rows of pixels to create a pixel grid. 
+<div class="c-project-output">
+![screenshot](images/css-file.png)
+</div>
 
-You can use copy and paste to save time.
+## Step 2
 
---- /task --- 
+The pixels show as white squares inside a black border. Experiment with colours, and change the `width` and `height` to get the artboard looking how you want it.
+
+### Tip
+<div class="c-project-callout c-project-callout--tip">
+You can find more CSS colour names [here](http://jumpto.cc/colours){:target="_blank"}.
+</div>
 
 <div class="c-project-code">
 --- code ---
 ---
-filename: index.html 
-language: html
+language: css
+filename: style.css
 line_numbers: true
-line_number_start: 5
-line_highlights: 6-22
+line_number_start: 1
+line_highlights: 4-5, 15-17
 ---
-<body>
-  <div id="artboard">
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-  </div>  
-</body>
+#artboard {
+  display: table;
+  border-spacing: 1px;
+  background-color: blue;
+  border: 5px solid blue;
+}
 
+.row {
+  display: table-row;
+}
+
+.pixel {
+  display: table-cell;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border: 1px solid blue;
+}
 --- /code ---
 
 </div>
 
---- task --- 
+## Now run your code
 
-**Test:** Run your code to see the 3x3 grid.
-
---- /task --- 
+You should see your **3×3** grid change with your new size and colours.
 
 <div class="c-project-output">
 
-![A 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step2.png)
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step3.png)
 
 </div>

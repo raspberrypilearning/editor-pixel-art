@@ -1,75 +1,52 @@
-<h2 class="c-project-heading--task">Style the grid area</h2>
+<h2 class="c-project-heading--task">Make the grid clickable</h2>
 
---- task ---
+Make pixels change colour when you click them.
 
-In `style.css`, add styles for `#art`, `.row`, and `.pixel`
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
---- /task ---
+## Step 1
 
+Click the file icon and open `script.js`.
 
---- task ---
-
-Click on the file icon, and the `style.css` file.
-
-![screenshot](images/css-file.png)
-
---- /task ---
-
-
---- task ---
-
-The pixels show as white squares inside a black border. Experiment with colours, and change the `width` and `height` to get the artboard looking how you want it.
-
---- /task ---
-
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-You can find more CSS colour names [here](http://jumpto.cc/colours){:target="_blank"}.
-
+<div class="c-project-output">
+![screenshot](images/js-file.png)
 </div>
 
+## Step 2
+
+Add the code below that finds every `.pixel` and turns it black when clicked.
+
 <div class="c-project-code">
+
 --- code ---
 ---
-language: css
-filename: style.css
+language: javascript
+filename: script.js
 line_numbers: true
 line_number_start: 1
-line_highlights: 4-5, 15-17
+line_highlights: 5-13
 ---
-#artboard {
-  display: table;
-  border-spacing: 1px;
-  background-color: blue;
-  border: 5px solid blue;
+function setPixelColour(pixel) {
+  pixel.style.backgroundColor = "black";
 }
 
-.row {
-  display: table-row;
-}
+document.addEventListener("DOMContentLoaded", () => {
+  const pixels = document.querySelectorAll(".pixel");
 
-.pixel {
-  display: table-cell;
-  background-color: white;
-  width: 60px;
-  height: 60px;
-  border: 1px solid blue;
-}
+  pixels.forEach((pixel) => {
+    pixel.addEventListener("click", () => setPixelColour(pixel));
+  });
+});
 --- /code ---
 
 </div>
 
---- task ---
+## Now run your code
 
-**Test:** Run your project  — you should see your **3×3** grid change with your new size and colours.
-
---- /task ---
+Click a few pixels and they should turn **black**.
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step3.png)
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step4.png)
 
 </div>
