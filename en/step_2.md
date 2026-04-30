@@ -1,44 +1,42 @@
+<h2 class="c-project-heading--task">Style the grid area</h2>
 
-<h2 class="c-project-heading--task">Add a row of pixels</h2>
+In `style.css`, add styles for `#art`, `.row`, and `.pixel`
 
---- task ---
-➡️ Add a row of three pixels inside the art div.
---- /task --- 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-Switch to the `index.html` file and add this code.
+## Step 1
 
-<div class="c-project-code">
---- code ---
----
-filename: index.html
-language: html
-line_numbers: true
-line_number_start: 7
-line_highlights: 9-13
----
-<body>
-  <div id="art">
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-  </div>  
-</body>
+Click on the file icon, and the `style.css` file.
 
---- /code ---
+<div class="c-project-output">
+![screenshot](images/css-file.png)
 </div>
 
-Switch to the `style.css` file and add the styles for rows and pixels:
+## Step 2
+
+The pixels show as white squares inside a black border. Experiment with colours, and change the `width` and `height` to get the artboard looking how you want it.
+
+### Tip
+<div class="c-project-callout c-project-callout--tip">
+You can find more CSS colour names [here](http://jumpto.cc/colours){:target="_blank"}.
+</div>
 
 <div class="c-project-code">
 --- code ---
 ---
-filename: style.css
 language: css
+filename: style.css
 line_numbers: true
-line_number_start: 8
+line_number_start: 1
+line_highlights: 4-5, 15-17
 ---
+#artboard {
+  display: table;
+  border-spacing: 1px;
+  background-color: blue;
+  border: 5px solid blue;
+}
+
 .row {
   display: table-row;
 }
@@ -46,20 +44,20 @@ line_number_start: 8
 .pixel {
   display: table-cell;
   background-color: white;
-  width: 40px;
-  height: 40px;
-  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  border: 1px solid blue;
 }
-
 --- /code ---
+
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
+## Now run your code
 
-### Tip
-You have used a class instead of an ID to style the row and pixel divs. This is because there will be lots of them.
+You should see your **3×3** grid change with your new size and colours.
+
+<div class="c-project-output">
+
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step3.png)
+
 </div>
-
-**Test:** Run your code to see the row of pixels.
-
-![A row of three squares (pixels) with a thick black border and thin inner borders](images/row-of-three.png)

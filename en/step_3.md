@@ -1,43 +1,52 @@
-<h2 class="c-project-heading--task">Add more rows</h2>
+<h2 class="c-project-heading--task">Make the grid clickable</h2>
 
---- task ---
-➡️ Create a 3×3 pixel grid. 
---- /task --- 
+Make pixels change colour when you click them.
 
-In your `index.html` file, add another two rows of pixels to create a 3×3 pixel grid. 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-You can use copy and paste to save time.
+## Step 1
 
-<div class="c-project-code">
---- code ---
----
-filename: index.html
-language: html
-line_numbers: true
-line_number_start: 7
-line_highlights: 14-23
----
-<body>
-  <div id="art">
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-    <div class = "row">
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
-    </div>
-  </div>  
-</body>
+Click the file icon and open `script.js`.
 
---- /code ---
+<div class="c-project-output">
+![screenshot](images/js-file.png)
 </div>
 
-**Test:** Run your code to see the 3x3 grid.
+## Step 2
+
+Add the code below that finds every `.pixel` and turns it black when clicked.
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: javascript
+filename: script.js
+line_numbers: true
+line_number_start: 1
+line_highlights: 5-13
+---
+function setPixelColour(pixel) {
+  pixel.style.backgroundColor = "black";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const pixels = document.querySelectorAll(".pixel");
+
+  pixels.forEach((pixel) => {
+    pixel.addEventListener("click", () => setPixelColour(pixel));
+  });
+});
+--- /code ---
+
+</div>
+
+## Now run your code
+
+Click a few pixels and they should turn **black**.
+
+<div class="c-project-output">
+
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step4.png)
+
+</div>

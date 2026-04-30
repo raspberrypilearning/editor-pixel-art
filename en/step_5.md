@@ -1,67 +1,45 @@
-<h2 class="c-project-heading--task">Colour the pixels</h2>
+<h2 class="c-project-heading--task">Add a palette</h2>
 
---- task ---
-➡️ Colour a pixel when you click it.
---- /task --- 
+Add a colour palette above your grid so you can choose colours later.
 
-Switch to the `script.js` file and change the backgroundColor from `'black'` to a colour of your choice. 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-<div class="c-project-code">
---- code ---
----
-filename: script.js
-language: javascript
-line_numbers: true
-line_number_start: 1
-line_highlights: 2
-
----
-function setPixelColour(pixel) {
-  pixel.style.backgroundColor = "black";
-}
-
---- /code ---
-</div>
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-A pixel is passed to the function, so the function can change that pixel’s colour.
-</div>
-
-Switch to the `index.html` file and add an `onclick` event to the first `pixel` div.
+In `index.html`, add a `palette` div above the `artboard`.
 
 <div class="c-project-code">
+
 --- code ---
 ---
-filename: index.html
 language: html
+filename: index.html
 line_numbers: true
-line_number_start: 7
-line_highlights: 10
+line_number_start: 4
+line_highlights: 6-10
 ---
+</head>
 <body>
-  <div id="art">
-    <div class = "row">
-      <div class="pixel" onclick="setPixelColour(this)"></div>
-      <div class="pixel"></div>
-      <div class="pixel"></div>
+    <div id="palette">
+      <div class="pen" data-colour="black" style="background-color: black;"></div>
+      <div class="pen" data-colour="white" style="background-color: white;"></div>
+      <div class="pen" data-colour="red" style="background-color: red;"></div>
+    </div>
 
+  <div id="artboard">
 --- /code ---
-</div>
 
-<div class="c-project-callout c-project-callout--tip">
+</div>
 
 ### Tip
-The `this` in brackets is passed to the `setPixelColour` function, so it knows which pixel to colour — ***this*** pixel!
+<div class="c-project-callout c-project-callout--tip">
+The pixels will only change to red for now.
 </div>
 
-**Test:** Run your code and click on the first pixel. It should turn black.
+## Now run your code
 
-<div class="c-project-callout c-project-callout--debug">
+You should see **three squares** above the grid. This is your pallette.
 
-### Debugging
+<div class="c-project-output">
 
-Notice that `backgroundColor` in the JavaScript code uses the American spelling of ‘colour’.
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step6.png)
 
 </div>

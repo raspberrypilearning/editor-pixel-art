@@ -1,70 +1,47 @@
-<h2 class="c-project-heading--task">Make the palette interactive</h2>
+<h2 class="c-project-heading--task">Challenges</h2>
 
---- task ---
-➡️ Let users choose colours with a click.
---- /task --- 
+Upgrade your project with some challenges.
 
-Switch to the `script.js` file and create the variable `penColour` and sets its value to `'black'` 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-<div class="c-project-code">
---- code ---
----
-filename: script.js
-language: javascript
-line_numbers: true
-line_number_start: 1
-line_highlights: 3-5
+## Step 1
 
----
-var penColour = 'black';
+**Make a bigger grid.**
 
---- /code ---
+Increase the size of your grid to 8x8
+
+### Tip
+<div class="c-project-callout c-project-callout--tip">
+You need to work out how to make one row of eight and then copy it to make seven more rows.
 </div>
 
-Create a new function called `setPenColour` with an input of `pen` and change the `setPixelColour` function to use the `penColour` variable instead of `'black'`:
+## Step 2
+
+**Add more colours to the palette.**
+
+Add another colour with the line of code below. Then create some colourful pixel images!
+
 
 <div class="c-project-code">
+
 --- code ---
 ---
-filename: script.js
-language: javascript
-line_numbers: true
-line_number_start: 1
-line_highlights: 7-9
----
-var penColour = 'black';
-
-function setPenColour(pen) {
-  penColour = pen;
-}
-
-function setPixelColour(pixel) {
-  pixel.style.backgroundColor = penColour;
-}
-
---- /code ---
-</div>
-
-Switch to the `index.html` file and add the calls to the `setPenColour` function.
-
-<div class="c-project-code">
---- code ---
----
-filename: index.html
 language: html
-line_numbers: true
-line_number_start: 7
-line_highlights: 9-10
+filename: index.html
+line_numbers: false
 ---
-<body>
-  <div id="palette">
-    <div class="pen" style="background-color:white;" onclick="setPenColour('white')"></div>
-    <div class="pen" style="background-color:black;" onclick="setPenColour('black')"></div>
-  </div>
-  <div id="art">
-  <div class = "row">
+
+ <div class="pen" style="background-color:black;" onclick="setPenColour('black')"></div>
 
 --- /code ---
 </div>
 
-**Test:** Switch the pen colour between black and white and paint some pixels!
+Here is an example of a design with a bigger grid
+
+<div class="c-project-output">
+![An 8x8 grid of pixels showing an green space invader character on a black background](images/pixel-art-final.png)
+</div>
+
+## Now run your code
+
+Try your challenges and check the changes in your pixel art.

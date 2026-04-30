@@ -1,12 +1,12 @@
-<h2 class="c-project-heading--task">Create the grid</h2>
+<h2 class="c-project-heading--task">Make the grid</h2>
 
---- task ---
-➡️ Create a table with black borders.
---- /task --- 
+Start with a 3×3 pixel grid so you have something to paint on.
 
-A `<div>` is an invisible box you can style. 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-Add a `<div>` with the ID `art`, so you can style it. 
+In your `index.html` file, add three rows of pixels to create a pixel grid.
+
+You can use copy and paste to save time.
 
 <div class="c-project-code">
 --- code ---
@@ -14,36 +14,39 @@ Add a `<div>` with the ID `art`, so you can style it.
 filename: index.html
 language: html
 line_numbers: true
-line_number_start: 7
-line_highlights: 8-10
+line_number_start: 5
+line_highlights: 6-22
 ---
 <body>
-  <div id="art">
-
-  </div>  
+  <div id="artboard">
+    <div class = "row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </div>
+    <div class = "row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </div>
+    <div class = "row">
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+      <div class="pixel"></div>
+    </div>
+  </div>
 </body>
 
 --- /code ---
+
 </div>
 
-Switch to the `style.css` file and add the styling for the art `<div>`.
+## Now run your code
 
-<div class="c-project-code">
---- code ---
----
-filename: style.css
-language: css
-line_numbers: true
-line_number_start: 1
----
-#art {
-  display: table;
-  border-spacing: 1px;
-  background-color: black;
-  border: 5px solid black;
-}
+Check the 3x3 grid.
 
---- /code ---
+<div class="c-project-output">
+
+![A 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step2.png)
+
 </div>
-
-**Test:** Run your code to see a black dot appear.

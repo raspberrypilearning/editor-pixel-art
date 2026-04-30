@@ -1,13 +1,39 @@
-<h2 class="c-project-heading--task">Challenge</h2>
+<h2 class="c-project-heading--task">Pick the paint</h2>
 
---- task ---
-➡️ Make all pixels clickable.
---- /task --- 
+Change the colours so the palette has colours that you like
 
-To save time, you can copy and paste the code you need.
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
 
-Here is an example:
+<div class="c-project-code">
 
-![An 8x8 grid of pixels showing a smiley face, drawn by colouring black pixels for the eyes and mouth](images/pixel-art-black-example.png)
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 6
+line_highlights: 7-9
+---
+  <div id="palette">
+      <div class="pen" data-colour="lavender" style="background-color: lavender;"></div>
+      <div class="pen" data-colour="orchid" style="background-color: orchid;"></div>
+      <div class="pen" data-colour="indigo" style="background-color: indigo;"></div>
+    </div>
+--- /code ---
 
-**Test:** Run your code and create a piece of pixel art!
+</div>
+
+### Tip
+<div class="c-project-callout c-project-callout--tip">
+The pixels will only change to lavender for now.
+</div>
+
+## Now run your code
+
+You should see your palette change.
+
+<div class="c-project-output">
+
+![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step7.png)
+
+</div>
