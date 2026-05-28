@@ -2,8 +2,6 @@
 
 Change the colours so the palette has colours that you like
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 <div class="c-project-code">
 
 --- code ---
