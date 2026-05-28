@@ -2,8 +2,6 @@
 
 Click a square in the palette to choose a colour, then paint pixels using that colour.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 Update `script.js` so clicking a pen sets `penColour`, and clicking a pixel uses `penColour`.
 
 <div class="c-project-code">
