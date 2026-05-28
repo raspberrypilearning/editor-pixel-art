@@ -2,8 +2,6 @@
 
 Start with a 3×3 pixel grid so you have something to paint on.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 In your `index.html` file, add three rows of pixels to create a pixel grid.
 
 You can use copy and paste to save time.
