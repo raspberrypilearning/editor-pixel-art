@@ -2,8 +2,6 @@
 
 Change the colour you paint by editing one line of JavaScript.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 In `script.js`, change the colour so pixels paint **red** instead of black.
 
 <div class="c-project-code">
