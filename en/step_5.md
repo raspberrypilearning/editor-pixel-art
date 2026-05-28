@@ -2,8 +2,6 @@
 
 Add a colour palette above your grid so you can choose colours later.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 In `index.html`, add a `palette` div above the `artboard`.
 
 <div class="c-project-code">
