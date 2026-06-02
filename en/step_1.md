@@ -1,6 +1,6 @@
 <h2 class="c-project-heading--task">Make the grid</h2>
 
-Start with a 3×3 pixel grid so you have something to paint on.
+Start with a 3×3 pixel grid so that you have something to paint on.
 
 In your `index.html` file, add three rows of pixels to create a pixel grid.
 
@@ -41,10 +41,10 @@ line_highlights: 6-22
 
 ## Now run your code
 
-Check the 3x3 grid.
+Check the 3×3 grid.
 
 <div class="c-project-output">
 
-![A 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step2.png)
+![A 3-by-3 grid of squares in the preview panel. The grid has a thick black outer border and thin black internal lines.](images/step2.png)
 
 </div>

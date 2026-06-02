@@ -1,8 +1,8 @@
 <h2 class="c-project-heading--task">Change the paint colour</h2>
 
-Change the colour you paint by editing one line of JavaScript.
+To change the colour you paint, edit one line of JavaScript.
 
-In `script.js`, change the colour so pixels paint **red** instead of black.
+In `script.js`, change the colour so that pixels are painted **red** instead of black.
 
 <div class="c-project-code">
 
@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ## Now run your code
 
-Click pixels and they should now turn **red**. Experiment with adding other colours.
+Click on pixels and they should now turn **red**. Experiment with adding other colours.
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step5.png)
+![The five squares in the 3-by-3 grid of squares that were black in the last step are now red.](images/step5.png)
 
 </div>

@@ -1,6 +1,6 @@
-<h2 class="c-project-heading--task">Pick the paint</h2>
+<h2 class="c-project-heading--task">Choose the paint</h2>
 
-Change the colours so the palette has colours that you like
+Change the colours so that the palette has colours that you prefer.
 
 <div class="c-project-code">
 
@@ -23,7 +23,7 @@ line_highlights: 7-9
 
 ### Tip
 <div class="c-project-callout c-project-callout--tip">
-The pixels will only change to lavender for now.
+For now, the pixels will only change to lavender.
 </div>
 
 ## Now run your code
@@ -32,6 +32,6 @@ You should see your palette change.
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step7.png)
+![Three squares coloured lavender, orchid, and indigo above the 3-by-3 grid of squares.](images/step7.png)
 
 </div>

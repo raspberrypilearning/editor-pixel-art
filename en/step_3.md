@@ -1,18 +1,18 @@
 <h2 class="c-project-heading--task">Make the grid clickable</h2>
 
-Make pixels change colour when you click them.
+Make pixels change colour when you click on them.
 
 ## Step 1
 
-Click the file icon and open `script.js`.
+Click on the **Project files** icon and open `script.js`.
 
 <div class="c-project-output">
-![screenshot](images/js-file.png)
+![script.js selected in the 'Project files' menu and open in a tab in the editor.](images/js-file.png)
 </div>
 
 ## Step 2
 
-Add the code below that finds every `.pixel` and turns it black when clicked.
+Add the code below to find every `.pixel` and turn it black when clicked.
 
 <div class="c-project-code">
 
@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ## Now run your code
 
-Click a few pixels and they should turn **black**.
+Click on a few pixels and they should turn **black**.
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step4.png)
+![Five squares in the 3-by-3 grid of squares are now black.](images/step4.png)
 
 </div>

@@ -1,8 +1,8 @@
 <h2 class="c-project-heading--task">Choose a palette colour</h2>
 
-Click a square in the palette to choose a colour, then paint pixels using that colour.
+Change the code so that you can click on a square in the palette to choose a colour, then use that colour to paint pixels.
 
-Update `script.js` so clicking a pen sets `penColour`, and clicking a pixel uses `penColour`.
+Update `script.js` so that clicking on a colour sets `penColour`, and clicking on a pixel uses `penColour`.
 
 <div class="c-project-code">
 
@@ -41,10 +41,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 ## Now run your code
 
-Click a pen, then click pixels to paint with that colour.
+Click on a colour, then click on pixels to paint with that colour.
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step7.png)
+![The 3-by-3 grid of squares with a palette with lavender, orchid, and indigo squares above it.](images/step7.png)
 
 </div>
