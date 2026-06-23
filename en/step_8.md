@@ -29,7 +29,7 @@ filename: index.html
 line_numbers: false
 ---
 
- <div class="pen" style="background-color:black;" onclick="setPenColour('black')"></div>
+<div class="pen" data-colour="blue" style="background-color: blue;"></div>
 
 --- /code ---
 </div>
