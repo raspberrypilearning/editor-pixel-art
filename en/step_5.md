@@ -1,10 +1,8 @@
 <h2 class="c-project-heading--task">Add a palette</h2>
 
-Add a colour palette above your grid so you can choose colours later.
+Add a colour palette above your grid so that you can choose colours later.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
-In `index.html`, add a `palette` div above the `artboard`.
+In `index.html`, add a `palette` `<div>` above the `artboard`.
 
 <div class="c-project-code">
 
@@ -31,15 +29,15 @@ line_highlights: 6-10
 
 ### Tip
 <div class="c-project-callout c-project-callout--tip">
-The pixels will only change to red for now.
+For now, the pixels will only change to red.
 </div>
 
 ## Now run your code
 
-You should see **three squares** above the grid. This is your pallette.
+You should see **three squares** above the grid. This is your palette.
 
 <div class="c-project-output">
 
-![An 3x3 grid of squares (pixels) with a thick black border and thin inner borders](images/step6.png)
+![Three squares coloured black, white, and red above the 3-by-3 grid of squares.](images/step6.png)
 
 </div>
