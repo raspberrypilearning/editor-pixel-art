@@ -2,7 +2,7 @@ title: Pixel art
 hero_image: images/banner.png
 description: Make some colourful pixel art!
 version: 4
-listed: false
+listed: true
 copyedit: false
 last_tested: "2024-06-27"
 landing: true
