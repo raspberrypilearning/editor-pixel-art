@@ -23,7 +23,7 @@ line_highlights: 7-9
 
 ### Tip
 <div class="c-project-callout c-project-callout--tip">
-For now, the pixels will only change to lavender.
+For now, the pixels will only change to red.
 </div>
 
 ## Now run your code
