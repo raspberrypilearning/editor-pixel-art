@@ -1,3 +1,4 @@
 name: 'Pixel art finished'
 identifier: 'editor-pixel-art-finished'
 type: 'html'
+build: true
